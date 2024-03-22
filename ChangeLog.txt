@@ -6,3 +6,5 @@ Adding feature/feature-005
 Adding feature/feature-006
 Adding feature/feature-007
 Adding feature/feature-008
+Adding feature/feature-009
+Adding fix/fix-regression-bug
