@@ -35,11 +35,12 @@ jobs:
           versionSpec: '5.x'
 
       - name: Determine Version
+        id: gitversion
         uses: gittools/actions/gitversion/execute@v1.1.1
 
       - name: Set Tag Name
         id: settagname
-        run: echo 'tagname=${{ steps.gitversion.outputs.semVer }}' >> "$GITHUB_OUTPUT"
+        run: echo 'tagname=${{ steps.gitversion.outputs.SemVer }}' >> "$GITHUB_OUTPUT"
 
       - run: |
           echo "FullSemVer (env.fullSemVer)            : ${{ env.fullSemVer }}"
