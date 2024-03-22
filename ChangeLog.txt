@@ -1,2 +1,3 @@
 Adding fix/fix001
 Adding feature/adding-feature-002
+Adding feature/feature-003
